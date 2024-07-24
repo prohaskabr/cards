@@ -16,8 +16,6 @@ func main() {
 
 	delete(colors, "Red")
 
-	//fmt.Printf("%+v", colors)
-
 	for k, v := range colors {
 		fmt.Println(k + " -> " + v)
 	}
